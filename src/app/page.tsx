@@ -18,11 +18,12 @@ const Page: React.FC = () => {
     };
 
     const handleJoinMeet = () => {
-        // Implement join meet logic
+        console.log("joined meet")
     };
 
     const handleLeaveMeet = () => {
-        // Implement leave meet logic
+        console.log("left meet")
+      
     };
     const handleBrushSizeChange = (size: number) => {
       setBrushSize(size);
